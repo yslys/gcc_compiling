@@ -80,7 +80,7 @@ main_runtime: main.c
 ```
 
 ### What are the meanings of ```-L.``` and ```-lreverse```?
-+ ```-L.```: tell the compiler to look in the current directory for libraries.
++ ```-L.```: tell the compiler to look in the current directory for the source code of the library (libreverse.c).
 + ```-lreverse```: tell the compiler, "I want to link the program with a library with name being libreverse"
     + The compiler is assuming that all libraries begin with ```lib```.
     + E.g., ```-lc``` would be telling the compiler to link the program with ```libC```.
