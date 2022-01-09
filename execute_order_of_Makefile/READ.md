@@ -19,7 +19,7 @@ gcc -Wall -g -o exec main.c reverse.o
 
 ```
 # add the new shared library to the default "all" rule
-all: main libreverse.so #main_runtime
+all: main libreverse.so
 
 libreverse.o: libreverse.c reverse.h
 	$(CC) $(CFLAGS) -c libreverse.c
